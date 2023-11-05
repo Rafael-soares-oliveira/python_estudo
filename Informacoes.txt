@@ -1,0 +1,51 @@
+Notion - Gerenciador
+- https://www.notion.so/rafaeloliveira994/Foco-dc0e3ef82d8943a789a0df8da307f813
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+GitHub - https://github.com/GrandMagnu/Python_Developer_DIO/tree/main/Bootcamp/Pot%C3%AAncia%20Tech%20powered%20by%20iFood
+- Comandos github - https://git-scm.com/docs:
+    - git config: apresenta todos os Comandos
+    - git config --global user.name "usuario cadastrado no github": cadastra o usuário
+    - git config --global user.email "email cadastrado no git": cadastra o email
+    - git config user.name: mostra o usuario que está logado
+    - git config user.email: mostra o email que está logado 
+    - git config init.defaultBranch: retorna o nome da branch padrão
+    - git config --global --show-origin credential.helper
+    - cat .gitconfig: mostra todas as informações de credencial (Para remover as credenciais necessita remover do gerenciador de credenciais, pesquisar no Iniciar)
+    - mkdir repo-local: cria um diretorio
+    - git remote add nome_do_repositorio URL_do github: cria um repositório local
+    - git init: inicia o repositório
+    - git clone URL_github nome_diretorio_local: clona um repositório e cria um nome para a pasta
+    - git clone URL_github --branch nome_branch --single-branch: irá copiar apenas a branch principal
+    - git commit -m "frase de alteração": comitar a alteração
+    - git log: exibe o commit realizado
+    - git status: mostra se há algum arquivo aguardando commit
+    - touch pasta/nome_arquivo.formato: cria um arquivo vazio
+    - echo pasta/ >.gitinore: inclui a pasta na lista de arquivos que não serão transferidos para o github
+    - echo > .gitinore: remove a pasta da lista
+    - touch pasta/ .gitkeep: pasta não terá nenhum arquivo dentro, mas ainda será reconhecido pelo 'git status'
+    - git add .: adiciona todos os arquivos de uma vez para o commit
+    - rm -rf .git: remover o diretorio e todo seu conteúdo
+    - git restore nome_arquivo: desfaz as alterações realizadas que foram salvas no diretorio local, mas que não ainda foram comitadas
+    - git commit --amend -m"frase corrigida": alterar a frase do último commit
+    - git reset --soft codigo_commit: voltar atrás no commit. código do commit pode ser obtido através do 'git log'
+    - git reset --mixed codigo_commit:  
+    - git reset --hard codigo_commit: desfaz todos os commit
+    - git reflog: mostra todos os commit realizados
+    - git push -u origin main: envia os commit para o repositório do github
+    - git pull: puxa as alterações do repositório remoto para o local
+    - git echo "nome_branch" > "nome_arquivo: transfere o arquivo atualizado para outra branch, enquanto o arquivo sem alteração permanece na outra branch
+    - git checkout -b nome_branch: altera a branch atual para a branch especificada
+    - git branch -v: lista os commit das branch
+    - git merge nome_branch/nome_branch_main: mescla a branch com a main
+    - git branch: lista as branch
+    - git branch -d nome_branch: exclui a branch
+    - git fetch origin main: baixa as atualizações do repositório remoto sem alterar o repositorio local
+    - git diff nome_branch_origin/nome_branch_main: mostra as diferenças dos arquivos
+    - git clone url_github --branch nome_branch --single-branch: clonar apenas a branch especificada
+ 
+ --------------------------------------------------------------------------------------------------------------------------------
+
+- Bootcamps
+1 - Potência Tech powered by iFood | Ciências de Dados com Python
