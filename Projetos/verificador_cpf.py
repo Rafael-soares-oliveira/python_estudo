@@ -83,4 +83,4 @@ def verif_cpf():
             print("CPF INVALID! CPF DOES NOT EXIST!")
             continue
         
-verif_cpf()
+        

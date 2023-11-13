@@ -58,5 +58,3 @@ def verif_cnpj():
     cnpj_list.append(str(cnpj_passo4_2))
 
     return cnpj_filtrado if [x for x in cnpj_filtrado] == cnpj_list else print('CNPJ Inválido!')
-
-verif_cnpj()
