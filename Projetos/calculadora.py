@@ -99,7 +99,7 @@ def main(): # função principal
                     if operator == 't':
                         encerrar()
                     
-                    elif operator in available_operators: # Continua caso o operador estiver dentro da available_operators
+                    elif operator in available_operators: # Continua caso o operador estiver na available_operators
                         print(input1, operator)
                         
                         while condition2 == 'n': # Repete a condição do primeiro número para o segundo
@@ -150,5 +150,3 @@ def main(): # função principal
         condition1 = 'n' 
         condition2 = 'n'
         operator = ""
-        
-main()

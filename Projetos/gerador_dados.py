@@ -1,3 +1,5 @@
+
+
 def func_gerar_dados():
     from faker import Faker
     gerador = Faker('pt_BR',use_weighting=True)
