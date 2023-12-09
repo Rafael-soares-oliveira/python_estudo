@@ -150,3 +150,4 @@ def main(): # função principal
         condition1 = 'n' 
         condition2 = 'n'
         operator = ""
+        
