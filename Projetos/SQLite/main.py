@@ -68,7 +68,6 @@ class Database():
         self.connection.close()
 
     def delete(self, comando):
-        from sys import exit
         comando = comando.upper()
         if 'WHERE' not in comando:
             while True:
